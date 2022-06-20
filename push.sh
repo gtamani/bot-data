@@ -1,5 +1,5 @@
 #!/bin/bash
-
+exho $PATH
 echo $1
 
 
