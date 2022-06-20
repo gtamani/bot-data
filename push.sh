@@ -10,6 +10,7 @@ function upload(){
 		if [[ $? == 0 ]]; then
 			echo "push"
 			git push
+			date +%D >> done.txt
 		fi
 	fi
 }
