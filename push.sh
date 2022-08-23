@@ -5,9 +5,9 @@ echo $1
 
 
 function upload(){
-	git add .  
+	git add .
 	if [[ $? == 0 ]]; then
-		date +%Y%m%d-%H:%M:%S | xargs git commit -m 
+		date '+%Y%m%d-%H:%M:%S' | xargs git commit -m
 		if [[ $? == 0 ]]; then
 			echo "push"
 			git push
