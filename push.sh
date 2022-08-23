@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 
 # Hay que tener en cuenta que crontab utiliza el la shell SH, a diferencia de los entornos de escritorio que suelen utilizar BASH.
