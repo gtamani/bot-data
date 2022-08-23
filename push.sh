@@ -1,4 +1,8 @@
 #!/bin/bash
+
+
+# Hay que tener en cuenta que crontab utiliza el la shell SH, a diferencia de los entornos de escritorio que suelen utilizar BASH.
+# En SH, el simbolo % tiene que escaparse
 export PATH="/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 echo $PATH
 echo $1
