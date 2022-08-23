@@ -13,7 +13,7 @@ echo 'added' >> logs.txt
 if [[ $? == 0 ]]; then
 	date '+\%Y\%m\%d-\%H:\%M:\%S' | xargs git commit -m
 	if [[ $? == 0 ]]; then
-		echo "push"
+		echo "pushed" > logs.txt
 		git push
 		date +%D >> done.txt
 	fi
