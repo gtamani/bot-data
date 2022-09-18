@@ -8,7 +8,7 @@ echo $PATH > logs.txt
 echo $1 >> logs.txt
 
 
-source .
+
 echo "PROCESS PID: $$"
 
 
