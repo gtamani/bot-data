@@ -11,6 +11,10 @@ echo $1 >> logs.txt
 
 echo "PROCESS PID: $$"
 
+dt=`date +%Y-%m-%d`
+cp /home/ubuntu/vps-server/vps-aws/files/foo.png /home/ubuntu/stonks/testing-cron/testing-cron/files/$dt.png
+
+
 
 git add .
 echo 'added' >> logs.txt
